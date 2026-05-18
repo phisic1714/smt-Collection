@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Shin megami tensei if...",
+    "platform": "Super nintendo",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/f/f1/2001_SMT_if_New_Order.jpg/",
+    "run": ""
+  },
+  {
+    "name": "Revelations: Persona",
+    "platform": "PlayStation Portable",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/b/b3/MIPAllies.jpg/",
+    "run": ""
+  },
+  {
+    "name": "Persona 2: Innocent Sin",
+    "platform": "PlayStation Portable",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/d/dc/P2IS_Novel_Main.jpg",
+    "run": ""
+  },
+  {
+    "name": "Persona 2: Eternal Punishment",
+    "platform": "PlayStation Portable",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/9/97/P2EP_Promotional_2.jpg",
+    "run": ""
+  },
+  {
+    "name": "Persona 3 Portable",
+    "platform": "Steam",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/f/f7/P3Art.jpg/",
+    "run": "1809700"
+  },
+  {
+    "name": "Persona 4 Golden",
+    "platform": "Steam",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/9/9b/P4-CoverArt.jpg/",
+    "run": "1113000"
+  },
+  {
+    "name": "Persona 5 Royal",
+    "platform": "Steam",
+    "image": "https://static.wikia.nocookie.net/megamitensei/images/4/4c/PERSONA5_package_visual.png",
+    "run": "1687950"
+  }
+]
