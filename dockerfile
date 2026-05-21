@@ -1,4 +1,4 @@
-# build angular
+# Build Angular
 FROM node:20 AS build
 
 WORKDIR /app
@@ -10,9 +10,11 @@ COPY . .
 
 RUN npm run build
 
-# serve with nginx
+# Serve ด้วย nginx
 FROM nginx:alpine
 
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY --from=build /app/dist/smt-Collection/browser /usr/share/nginx/html
 
 EXPOSE 80

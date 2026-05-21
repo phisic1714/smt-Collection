@@ -21,9 +21,14 @@ app.add_middleware(
 
 @app.post("/run-game")
 def run_games(req_body: RunBody):
-
     emulator = req_body.emulator
     rom = req_body.rom
-
-    subprocess.Popen(f'start "" "{emulator}" "{rom}"', shell=True)
-    return {"Hello": "World"}
+    try:
+        if not emulator or not rom:
+            return {"error": "emulator and rom must be provided"}
+        # both emulator and rom are guaranteed to be str here
+        subprocess.Popen([emulator, rom])
+        return {"success": True}
+    except Exception as e:
+        print(e)
+        return {"error": str(e)}

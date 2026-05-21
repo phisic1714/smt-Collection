@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import gamesList from './util/gameslist.json';
 
 async function runGameFile(params: unknown) {
-  await fetch('http://127.0.0.1:8000/run-game', {
+  await fetch('/api/run-game', {
     method: 'POST',
     body: JSON.stringify(params),
     headers: {

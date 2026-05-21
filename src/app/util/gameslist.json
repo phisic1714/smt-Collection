@@ -3,7 +3,9 @@
     "name": "Shin megami tensei if...",
     "platform": "Super nintendo",
     "image": "https://static.wikia.nocookie.net/megamitensei/images/f/f1/2001_SMT_if_New_Order.jpg/",
-    "run": ""
+    "run": "",
+    "emulator": "G:\\Other computers\\คอมพิวเตอร์ของฉัน\\snes (1)\\snes9x-x64.exe",
+    "rom": "G:\\Other computers\\คอมพิวเตอร์ของฉัน\\snes (1)\\Roms\\Shin Megami Tensei if... (Eng. patched v1.0).sfc"
   },
   {
     "name": "Revelations: Persona",
