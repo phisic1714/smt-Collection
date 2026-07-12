@@ -1,9 +1,9 @@
 [
   {
-    "name": "Shin megami tensei if...",
+    "name": "Shinmegamitenseiif",
     "platform": "Super nintendo",
     "image": "https://static.wikia.nocookie.net/megamitensei/images/f/f1/2001_SMT_if_New_Order.jpg/",
-    "run": "",
+    "run": "J3wGXehJMpUjrwJJXxnCM",
     "emulator": "G:\\Other computers\\คอมพิวเตอร์ของฉัน\\snes (1)\\snes9x-x64.exe",
     "rom": "G:\\Other computers\\คอมพิวเตอร์ของฉัน\\snes (1)\\Roms\\Shin Megami Tensei if... (Eng. patched v1.0).sfc"
   },
@@ -11,19 +11,21 @@
     "name": "Revelations: Persona",
     "platform": "PlayStation Portable",
     "image": "https://static.wikia.nocookie.net/megamitensei/images/b/b3/MIPAllies.jpg/",
-    "run": ""
+    "run": "JFDuIT7aFXzI1gxMByLc4"
   },
   {
     "name": "Persona 2: Innocent Sin",
     "platform": "PlayStation Portable",
     "image": "https://static.wikia.nocookie.net/megamitensei/images/d/dc/P2IS_Novel_Main.jpg",
-    "run": ""
+    "run": "1eC9G58tlUHyL80D4o4Pw",
+    "emulator": "C:\\Program Files\\Emulator\\duckstation-windows-x64-release\\duckstation-qt-x64-ReleaseLTCG.exe",
+    "rom": "C:\\Program Files\\Emulator\\duckstation-windows-x64-release\\game\\Persona 2 - Tsumi - Innocent Sin (Japan) (T-En by Devil Hackers v1.0a).chd"
   },
   {
     "name": "Persona 2: Eternal Punishment",
     "platform": "PlayStation Portable",
     "image": "https://static.wikia.nocookie.net/megamitensei/images/9/97/P2EP_Promotional_2.jpg",
-    "run": ""
+    "run": "X5vbtnuKDnQ3c2no5tZVb"
   },
   {
     "name": "Persona 3 Portable",

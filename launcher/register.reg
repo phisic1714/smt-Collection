@@ -9,4 +9,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\smtlauncher\shell\open]
 
 [HKEY_CLASSES_ROOT\smtlauncher\shell\open\command]
-@="\"C:\\Users\\pee\\Documents\\GitHub\\smt-Collection\\dist\\src\\src.exe" \"%1\""
+@="\"C:\\Users\\pee\\Documents\\GitHub\\smt-Collection\\launcher\\dist\\src.exe\" \"%1\""
