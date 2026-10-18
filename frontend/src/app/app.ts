@@ -2,6 +2,9 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import gamesList from './util/gameslist.json';
 import { nanoid } from 'nanoid';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
 async function runGameFile(params: unknown) {
   await fetch('/api/run-game', {
     method: 'POST',
@@ -14,7 +17,7 @@ async function runGameFile(params: unknown) {
 }
 @Component({
   selector: 'app-root',
-  // imports: [RouterOutlet],
+  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
