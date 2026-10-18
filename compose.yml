@@ -1,16 +1,26 @@
+name: smt-collection
 services:
   frontend:
     build:
-      context: .
+      context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - '4200:80'
+      - "8080:80"
     depends_on:
       - backend
+    networks:
+      - retronet
+    develop:
+      watch:
+        - action: sync+restart
+          path: /frontend
+          target: ./frontend
 
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    ports:
-      - '8000:8000'
+    networks:
+      - retronet
+networks:
+  retronet:
